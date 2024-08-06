@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.nav-item {
+    margin-bottom: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: 0.5px solid #aaaaaa;
+}
+
+.nav-item.active {
+    background-color: #5DB075;
+    ;
+}

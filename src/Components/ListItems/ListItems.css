@@ -1,0 +1,45 @@
+/* src/page1/ListItems.css */
+.items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .item-card {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-image {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .item-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .item-price {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .item-shipping {
+    font-size: 10px;
+    color: #5DB075;
+  }
+  
